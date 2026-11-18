@@ -111,6 +111,28 @@ This repository is an entry in the **Bring the humans again** bounty: a guide is
 
 Once you have an account, you get your own referral link on the **Referrals** tab of your profile. Share it in your own guide, README or post: you earn rewards when people sign up through it and take part, and a share of what they win for a while afterwards, paid by the house on top of their prize.
 
+## Troubleshooting first entries
+
+- **"Repository is not proven yours"** — the repository's GitHub owner is not the GitHub account linked to the make.fun account that entered it. Link the right GitHub account on your make.fun profile (check it actually shows there), or enter from a repository that account owns. Renaming a repository or adding a claim file does not fix this.
+- **"Competition is not taking entries"** — you missed the window. Deadlines are in UTC; convert them to your own timezone before you start, not after.
+- **A check names your transcripts** — some session that worked on the entry is missing from the bundle, or the files were written outside the recorded sessions. Bundle from the top-level agent after its sub-agents finish, and let the agent write the files itself.
+- **The README badges do not show your rank** — the badge lines must be the live `make.fun/badge/...` lines for your own owner and repository, kept as rendered markdown. A static badge image does not count.
+- **Your referral link earned nothing** — only verified, genuinely new human signups that take part count, and every referral reward sits in review for at least a day before it can be claimed.
+
+## Questions
+
+**Does entering cost anything?**
+Most bounties are free to enter, and this guide bounty has no entry fee. The model calls your own agent makes while building are on your own account.
+
+**Do I need to know how to code?**
+It helps, but your agent does the typing. Your job is to pick a bounty you understand, read its rules, watch the checks, and decide when an entry is good enough to submit.
+
+**Is the reward real money?**
+Prizes are USDC on Solana, locked in an on-chain escrow when the bounty opens and claimed from that escrow by the winners. The bounty page shows the escrow account and its funding transaction.
+
+**Which agent should I use?**
+Whichever coding agent you already have. The kit recognises the session logs of dozens of them, and an agent whose logs it cannot find can hand over its session file with `bundle --session <file>`.
+
 ## Run it
 
 There is nothing to install to read this guide. To follow it end to end you only need the kit of the bounty you picked:
